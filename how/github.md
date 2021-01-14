@@ -1,9 +1,9 @@
-## Git and GitHub
+# Git and GitHub
 GitHub is an advanced site where you can create repositories for git
 
 Installing Git
 
-# Putting Git in a Folder
+## Putting Git in a Folder
 - In your terminal type: `cd [folder]` one by one
     - Begin by your workspace
 
@@ -11,7 +11,7 @@ Installing Git
 - Finishing by `git add .`
 - !Don't close terminal!
 
-# Using GitHub
+## Using GitHub
 - Go to [GitHub](https://github.com/)
 - Create an account if you don't have one
 
@@ -21,7 +21,7 @@ Installing Git
         - Check add an README.md file
             - Click Create repository
 
-# Putting Folder in the Repository
+## Putting Folder in the Repository
 - Go back to your terminal
     - Type in: `git commit -m "New Repository"`
     - Type in: `git remote add origine [branch-name] [repository-url]`
@@ -30,10 +30,10 @@ Installing Git
             - Looks like: `https://github.com/[account-name]/[repository-name]`
     - For last type in: `git push [branch-name]`
 
-# Pushing and Pulling
+## Pushing and Pulling
 - Pushing is when you updates the repository from your folder
 - Pulling is when you update your folder from the repository
 
-# Best For Git File Editors
+## Best For Git File Editors
 - Visual Code
 - Sublime Text + Sublime Merge

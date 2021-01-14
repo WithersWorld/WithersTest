@@ -1,4 +1,4 @@
-## Welcome to WebyHow
+# Welcome to WebyHow
 WebyHow is here to explain somethings to you if you are a gamer or a programmer.
 Even though there is not that many articles, WebyHow is a good start.
 

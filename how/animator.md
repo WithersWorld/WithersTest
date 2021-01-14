@@ -1,4 +1,4 @@
-## Cool things for html files
+# Cool things for html files
 - The most known:
     - Font Awesome
         - Icons for pages
