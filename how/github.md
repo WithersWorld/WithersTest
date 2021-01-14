@@ -25,7 +25,7 @@ GitHub is an advanced site where you can create repositories for git
 ## Putting Folder in the Repository
 - Go back to your terminal
     - Type in: `git commit -m "New Repository"`
-    - Type in: `git remote add origine [branch-name] [repository-url]`
+    - Type in: `git remote add origin [branch-name] [repository-url]`
         - In branch-name add in main or master
         - For repository-url add in your repository url
             - Looks like: `https://github.com/[account-name]/[repository-name]`
@@ -38,3 +38,10 @@ GitHub is an advanced site where you can create repositories for git
 ## Best For Git File Editors
 - Visual Code
 - Sublime Text + Sublime Merge
+
+### Example
+- Branch: master
+- Repository url: https://github.com/Wither/WebyHow
+
+- `git remote add orgin master https://github.com/Wither/WebyHow`
+- `git push master`
