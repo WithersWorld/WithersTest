@@ -1,7 +1,8 @@
 # Installing Apps on Linux Beta
+Here is an article that explain how to install some linux apps on linux beta
 
 - [WebyHow](https://withersworld.github.io/WithersTest/how/)
-Installing Linux
+- Installing Linux
 
 It is really easy:
 - Type in your terminal `sudo apt-get install [app-name]`
