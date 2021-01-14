@@ -1,5 +1,6 @@
 # Installing Apps on Linux Beta
 
+-[WebyHow](https://withersworld.github.io/WithersTest/how/)
 Installing Linux
 
 It is really easy:

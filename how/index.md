@@ -9,6 +9,6 @@ Even though there is not that many articles, WebyHow is a good start.
 
 - Git:
     - Installing git
-    - Using git and GitHub
+    - [Using git and GitHub](https://withersworld.github.io/WithersTest/how/github)
     - Github pages
     - Using ssh for GitHub
