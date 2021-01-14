@@ -1,8 +1,8 @@
 # Git and GitHub
 GitHub is an advanced site where you can create repositories for git
 
--[WebyHow](https://withersworld.github.io/WithersTest/how/)
--Installing Git
+- [WebyHow](https://withersworld.github.io/WithersTest/how/)
+- Installing Git
 
 ## Putting Git in a Folder
 - In your terminal type: `cd [folder]` one by one
