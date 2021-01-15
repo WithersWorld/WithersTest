@@ -1,6 +1,8 @@
 # GitHub Pages
 GitHub pages permits you to create a web page and host it from your repositories
 
+- [WebyHow](https://withersworld.github.io/WithersTest/how/)
+
 ## Head Repository
 - To create an head repository for your pages
     - The repository name has to be `[account-name].github.io` and be public

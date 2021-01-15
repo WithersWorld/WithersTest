@@ -7,9 +7,9 @@ Even though there is not that many articles, WebyHow is a good start.
     - Installing minecraft on linux beta
     - [Installing apps on linux beta](https://withersworld.github.io/WithersTest/how/InstallAppsLinux)
 
-- Git:
+- Git & GitHub:
     - [Using git and GitHub](https://withersworld.github.io/WithersTest/how/github)
-    - Github pages
+    - [Github pages](https://withersworld.github.io/WithersTest/how/githubpages)
     - Using ssh for GitHub
 
 - Files:
