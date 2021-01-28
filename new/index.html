@@ -3,19 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="new.css">
+    <script src="new.js"></script>
     <title>Webysite</title>
 </head>
 <body>
-    <nav>
+    <nav class="webynav">
         <div class="items">
             <span>Home</span>
             <span>About</span>
-            <span>New</span>
+            <span>New Tips</span>
         </div>
     </nav>
+    <script>
+        function color() {
+            var color = $("#color").val();
+            document.querySelector(".content").style.color = color;
+        }
+    </script>
     <div class="container">
         <section>
+            <button onclick="color()">change</button>
+            <input type="text" id="color">
             <div class="content">
                 <div>WebyTips</div>
 
