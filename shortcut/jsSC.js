@@ -1,4 +1,4 @@
-// Weby Extension JavaScript Shortcuts  PUBLIC    *Don't use to make your own, it's for everyone*
+// Weby Extension JavaScript Shortcuts 1.1.1  PUBLIC    *Don't use to make your own, it's for everyone*
 
 var Weby = function(selector) {
     this.selector = selector || null;
