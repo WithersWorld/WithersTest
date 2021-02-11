@@ -47,6 +47,12 @@ var Weby = function(selector) {
     }
     this.element.innerHTML = html;
    };
+   webyDOM.text = function(text) {
+       if (text === undefined) {
+        return this.element.innerText;
+       }
+       this.element.innerText = text;
+   }
    // CSS
    webyDOM.css = function(css, cssInput) {
        if (css === undefined) {
