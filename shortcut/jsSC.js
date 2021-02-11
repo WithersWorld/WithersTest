@@ -22,7 +22,7 @@ var Weby = function(selector) {
    var webyDOM = Weby.prototype;
    // ON
    webyDOM.on = function(event, callback) {
-    var evt = this.eventHandler.bindEvent(event, callback, this.element);
+    this.eventHandler.bindEvent(event, callback, this.element);
    }
    // Off
    webyDOM.off = function(event) {
@@ -66,8 +66,8 @@ var Weby = function(selector) {
 
    webyDOM.each = function (callback) {
 	if (!callback || typeof callback !== 'function') return;
-	for (var i = 0; i < this.elems.length; i++) {
-		callback(this.elems[i], i);
+	for (var i = 0; i < this.element.length; i++) {
+		callback(this.element[i], i);
 	}
    };
    webyDOM.addClass = function (className) {
