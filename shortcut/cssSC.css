@@ -1,0 +1,116 @@
+/*Weby Extension CSS Shortcuts  PUBLIC Copyright*/
+/*Flex*/
+.flex {display: flex;}
+/*Justify Content*/
+.justifyc-center {justify-content: center;}
+.justifyc-between {justify-content: space-between;}.justifyc-around {justify-content: space-around;}.justifyc-evenly {justify-content: space-evenly;}
+.justifyc-start {justify-content: flex-start;}.justifyc-end {justify-content: flex-end;}
+.justifyc-initial {justify-content: initial;}.justifyc-stretch {justify-content: stretch;}
+/*Align Content*/
+.alignc-center {align-content: center;}
+.alignc-between {align-content: space-between;}.alignc-around {align-content: space-around;}.alignc-evenly {align-content: space-evenly;}
+.alignc-start {align-content: flex-start;}.alignc-end {align-content: flex-end;}
+.alignc-initial {align-content: initial;}.alignc-stretch {align-content: stretch;}
+/*Justify Items*/
+.justifyi-center {justify-items: center;}.justifyi-start {justify-items: flex-start;}.justifyi-end {justify-items: flex-end;}
+.justifyi-stretch {justify-items: stretch;}.justifyi-baseline {justify-items: baseline;}.justifyi-initial {justify-items: initial;}
+/*Align Items*/
+.aligni-center {align-items: center;}.aligni-start {align-items: flex-start;}.aligni-end {align-items: flex-end;}
+.aligni-stretch {align-items: stretch;}.aligni-baseline {align-items: baseline;}.aligni-initial {align-items: initial;}
+/*Justify Self*/
+.justifys-center {justify-self: center;}
+.justifys-start {justify-self: flex-start;}
+.justifys-end {justify-self: flex-end;}
+.justifys-stretch {justify-self: stretch;}
+.justifys-auto {justify-self: auto;}
+.justifys-baseline {justify-self: baseline;}
+.justifys-initial {justify-self: initial;}
+/*Flex Wrap*/
+.flex-wrap {flex-wrap: wrap;}
+.flex-nowrap {flex-wrap: nowrap;}
+
+/*Float*/
+.float-left {float: left;}
+.float-right {float: right;}
+.float-start {float: inline-start;}
+.float-end {float: inline-end;}
+.float-none {float: none;}
+
+/*Display*/
+.block {display: block;}
+.none {display: none;}
+.inline {display: inline;}
+
+/*Position*/
+.relative {position: relative;}
+.absolute {position: absolute;}
+.fixed {position: fixed;}
+.static {position: static;}
+.sticky {position: sticky;}
+.nopos {position: initial;}
+
+/*No*/
+.no-link {color: inherit;text-decoration: none;}
+.no-list {list-style: none;}
+
+/*List Decoration*/
+.list-circle {list-style: circle;}
+.list-number {list-style: decimal;}
+.list-square {list-style: square;}
+
+/*Border Style*/
+.border-dashed {border-style: dashed}
+.border-dotted {border-style: dotted}
+.border-groove {border-style: groove}
+.border-solid {border-style: solid}
+.border-hidden {border-style: hidden}
+.border-none {border-style: none}
+
+/*Text Decoration*/
+.text-dashed {text-decoration: dashed;}
+.text-dotted {text-decoration: dotted;}
+.text-striked {text-decoration: line-through;}
+.text-overline {text-decoration: overline;}
+.text-underline {text-decoration: underline;}
+.text-wavy {text-decoration: wavy;}
+.text-none {text-decoration: none;}
+/*Text Align*/
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+.text-center {text-align: center;}
+/*Text Transform*/
+.text-capitalize {text-transform: capitalize}
+.text-upper {text-transform: uppercase}
+.text-lower {text-transform: lowercase}
+
+/*Font Size*/
+.font-large {font-size: large;}
+.font-xlarge {font-size: x-large;}
+.font-xxlarge {font-size: xx-large;}
+.font-small {font-size: small;}
+.font-xsmall {font-size: x-small;}
+.font-xxsmall {font-size: xx-small;}
+/*Font Style*/
+.font-italic {font-style: italic}
+.font-nostyle {font-style: normal}
+/*.font Stretch*/
+.font-condense {font-stretch: condensed}
+.font-scondense {font-stretch: semi-condensed}
+.font-econdense {font-stretch: extra-condensed}
+.font-ucondense {font-stretch: ultra-condensed}
+.font-expand {font-stretch: expanded}
+.font-sexpand {font-stretch: semi-expanded}
+.font-eexpand {font-stretch: extra-expanded}
+.font-uexpand {font-stretch: ultra-expanded}
+.font-nostretch {font-stretch: normal}
+
+/*Colors*/
+.color-red {color: red;}.color-blue {color: blue;}.color-yellow {color: yellow;}.color-green {color: green;}.color-orange {color: orange;}.color-violet {color: violet;}
+.color-orangered {color: orangered;}.color-yellowgreen {color: yellowgreen;}.color-blueviolet {color: blueviolet;}
+.color-white {color: white;}.color-black {color: black;}.color-gray {color: gray;}.color-dgray {color: darkgray;}
+.color-dred {color: darkred;}.color-dblue {color: darkblue;}.color-dyellow {color: darkgoldenrod;}.color-dgreen {color: darkgreen;}.color-dorange {color: darkorange;}.color-dviolet {color: darkviolet;}
+
+/*Cursor*/
+.cursor-pointer {cursor: pointer;}
+.cursor-text {cursor: text;}
+.cursor-mouve {cursor: move;}
