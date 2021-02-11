@@ -28,6 +28,9 @@
 /*Flex Wrap*/
 .flex-wrap {flex-wrap: wrap;}
 .flex-nowrap {flex-wrap: nowrap;}
+/*Flex Direction*/
+.flex-row {flex-direction: row;}
+.flex-column {flex-direction: column;}
 
 /*Float*/
 .float-left {float: left;}
