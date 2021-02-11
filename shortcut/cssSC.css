@@ -114,6 +114,6 @@
 .color-dred {color: darkred;}.color-dblue {color: darkblue;}.color-dyellow {color: darkgoldenrod;}.color-dgreen {color: darkgreen;}.color-dorange {color: darkorange;}.color-dviolet {color: darkviolet;}
 
 /*Cursor*/
-.cursor-pointer {cursor: pointer;}
-.cursor-text {cursor: text;}
-.cursor-mouve {cursor: move;}
+.cursor-pointer:hover {cursor: pointer;}
+.cursor-text:hover {cursor: text;}
+.cursor-mouve:hover {cursor: move;}
