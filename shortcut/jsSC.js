@@ -113,9 +113,3 @@ var Weby = function(selector) {
     el.init();
     return el;
    }
-   Zid = function(selector) {
-       var id = document.getElementById(selector);
-       var elid = new Weby(id);
-       elid.init();
-       return elid;
-   }
