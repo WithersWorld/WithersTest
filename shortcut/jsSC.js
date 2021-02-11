@@ -58,13 +58,23 @@ var Weby = function(selector) {
        this.element.style.css = cssInput;
    }
 
-   // Console
-   webyDOM.alert = function(console) {
-    console.alert(this.element + 'says:', console);
-   }
-   webyDOM.log = function(console) {
-       console.log(this.element + 'says:', console);
-   }
+   webyDOM.each = function (callback) {
+	if (!callback || typeof callback !== 'function') return;
+	for (var i = 0; i < this.elems.length; i++) {
+		callback(this.elems[i], i);
+	}
+   };
+   webyDOM.addClass = function (className) {
+	this.each(function (item) {
+		item.classList.add(className);
+	});
+   };
+   webyDOM.removeClass = function (className) {
+	this.each(function (item) {
+		item.classList.remove(className);
+	});
+   };
+
 
    Weby.prototype.eventHandler = {
     events: [],
