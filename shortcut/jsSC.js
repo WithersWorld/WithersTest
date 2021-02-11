@@ -1,10 +1,10 @@
 // Weby Extension JavaScript Shortcuts  PUBLIC    *Don't use to make your own, it's for everyone*
 
-var domElement = function(selector) {
+var Weby = function(selector) {
     this.selector = selector || null;
     this.element = null;
    };
-   domElement.prototype.init = function() {
+   Weby.prototype.init = function() {
     switch (this.selector[0]) {
     case '<':
     var matches = this.selector.match(/<([\w-]*)>/);
@@ -19,29 +19,54 @@ var domElement = function(selector) {
     this.element = document.querySelector(this.selector);
     }
    };
-
-   domElement.prototype.on = function(event, callback) {
+   var webyDOM = Weby.prototype;
+   // ON
+   webyDOM.on = function(event, callback) {
     var evt = this.eventHandler.bindEvent(event, callback, this.element);
    }
-   domElement.prototype.off = function(event) {
+   // Off
+   webyDOM.off = function(event) {
     var evt = this.eventHandler.unbindEvent(event, this.element);
    }
-   domElement.prototype.val = function(newVal) {
+   // Val
+   webyDOM.val = function(newVal) {
     return (newVal !== undefined ? this.element.value = newVal : this.element.value);
    };
-   domElement.prototype.append = function(html) {
+   // Append
+   webyDOM.append = function(html) {
     this.element.innerHTML = this.element.innerHTML + html;
    };
-   domElement.prototype.prepend = function(html) {
+   // Prepend
+   webyDOM.prepend = function(html) {
     this.element.innerHTML = html + this.element.innerHTML;
    };
-   domElement.prototype.html = function(html) {
+   // HTML
+   webyDOM.html = function(html) {
     if (html === undefined) {
     return this.element.innerHTML;
     }
     this.element.innerHTML = html;
    };
-   domElement.prototype.eventHandler = {
+   // CSS
+   webyDOM.css = function(css, cssInput) {
+       if (css === undefined) {
+           return this.element.style;
+       }
+       if (cssInput === undefined) {
+           return this.element.style.css;
+       }
+       this.element.style.css = cssInput;
+   }
+
+   // Console
+   webyDOM.alert = function(console) {
+    console.alert(this.element + 'says:', console);
+   }
+   webyDOM.log = function(console) {
+       console.log(this.element + 'says:', console);
+   }
+
+   Weby.prototype.eventHandler = {
     events: [],
     bindEvent: function(event, callback, targetElement) {
     this.unbindEvent(event, targetElement);
@@ -68,7 +93,7 @@ var domElement = function(selector) {
     }
    };
    Z = function(selector) {
-    var el = new domElement(selector);
+    var el = new Weby(selector);
     el.init();
     return el;
    }
