@@ -49,9 +49,9 @@ var Weby = function(selector) {
    };
    webyDOM.text = function(text) {
        if (text === undefined) {
-        return this.element.innerText;
+        return this.element.textContent;
        }
-       this.element.innerText = text;
+       this.element.textContent = text;
    }
    // CSS
    webyDOM.css = function(css, cssInput) {
