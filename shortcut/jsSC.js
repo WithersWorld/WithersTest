@@ -49,7 +49,7 @@ var Weby = function(selector) {
    };
    webyDOM.text = function(text) {
        if (text === undefined) {
-        return this.element.textContent;
+       return this.element.textContent;
        }
        this.element.textContent = text;
    }
@@ -112,4 +112,10 @@ var Weby = function(selector) {
     var el = new Weby(selector);
     el.init();
     return el;
+   }
+   Zid = function(selector) {
+       var id = document.getElementById(selector);
+       var elid = new Weby(id);
+       elid.init();
+       return elid;
    }
