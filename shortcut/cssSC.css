@@ -1,4 +1,4 @@
-/*Weby Extension CSS Shortcuts 1.1.2  PUBLIC*/
+/*Weby Extension CSS Shortcuts 1.1.4  PUBLIC*/
 /*Flex*/
 .flex {display: flex;}
 /*Justify Content*/
@@ -18,12 +18,8 @@
 .aligni-center {align-items: center;}.aligni-start {align-items: flex-start;}.aligni-end {align-items: flex-end;}
 .aligni-stretch {align-items: stretch;}.aligni-baseline {align-items: baseline;}.aligni-initial {align-items: initial;}
 /*Justify Self*/
-.justifys-center {justify-self: center;}
-.justifys-start {justify-self: flex-start;}
-.justifys-end {justify-self: flex-end;}
-.justifys-stretch {justify-self: stretch;}
-.justifys-auto {justify-self: auto;}
-.justifys-baseline {justify-self: baseline;}
+.justifys-center {justify-self: center;}.justifys-start {justify-self: flex-start;}.justifys-end {justify-self: flex-end;}
+.justifys-stretch {justify-self: stretch;}.justifys-auto {justify-self: auto;}.justifys-baseline {justify-self: baseline;}
 .justifys-initial {justify-self: initial;}
 /*Flex Wrap*/
 .flex-wrap {flex-wrap: wrap;}
@@ -96,23 +92,19 @@
 /*Font Style*/
 .font-italic {font-style: italic}
 .font-nostyle {font-style: normal}
-/*.font Stretch*/
-.font-condense {font-stretch: condensed}
-.font-scondense {font-stretch: semi-condensed}
-.font-econdense {font-stretch: extra-condensed}
-.font-ucondense {font-stretch: ultra-condensed}
-.font-expand {font-stretch: expanded}
-.font-sexpand {font-stretch: semi-expanded}
-.font-eexpand {font-stretch: extra-expanded}
-.font-uexpand {font-stretch: ultra-expanded}
-.font-nostretch {font-stretch: normal}
+
 
 /*Colors*/
-.color-red {color: red;}.color-blue {color: blue;}.color-yellow {color: yellow;}.color-green {color: green;}.color-orange {color: orange;}.color-violet {color: violet;}
-.color-orangered {color: orangered;}.color-yellowgreen {color: yellowgreen;}.color-blueviolet {color: blueviolet;}
-.color-white {color: white;}.color-black {color: black;}.color-gray {color: gray;}.color-dgray {color: darkgray;}
-.color-dred {color: darkred;}.color-dblue {color: darkblue;}.color-dyellow {color: darkgoldenrod;}.color-dgreen {color: darkgreen;}.color-dorange {color: darkorange;}.color-dviolet {color: darkviolet;}
+.color-red{color: red;}.color-blue{color: blue;}.color-yellow{color: yellow;}.color-green{color: green;}.color-orange{color: orange;}.color-violet{color: violet;}
+.color-orangered{color: orangered;}.color-yellowgreen{color: yellowgreen;}.color-blueviolet{color: blueviolet;}
+.color-white{color: white;}.color-black{color: black;}.color-gray{color: gray;}.color-dgray{color: darkgray;}
+.color-dred{color: darkred;}.color-dblue{color: darkblue;}.color-dyellow{color: darkgoldenrod;}.color-dgreen{color: darkgreen;}.color-dorange{color: darkorange;}.color-dviolet{color: darkviolet;}
 
+/*Background Color*/
+.bg-red{background: red;}.bg-blue{background: blue;}.bg-yellow{background: yellow;}.bg-green{background: green;}.bg-orange{background: orange;}.bg-violet{background: violet;}
+.bg-orangered{background: orangered;}.bg-yellowgreen{background: yellowgreen;}.bg-blueviolet{background: blueviolet;}
+.bg-white{background: white;}.bg-black{background: black;}.bg-gray{background: gray;}.bg-dgray{background: darkgray;}
+.bg-dred{background: darkred;}.bg-dblue{background: darkblue;}.bg-dyellow{background: darkgoldenrod;}.bg-dgreen{background: darkgreen;}.bg-dorange{background: darkorange;}.bg-dviolet{background: darkviolet;}
 /*Cursor*/
 .cursor-pointer:hover {cursor: pointer;}
 .cursor-text:hover {cursor: text;}
