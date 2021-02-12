@@ -111,4 +111,4 @@
 /*Cursor*/
 .cursor-pointer:hover {cursor: pointer;}
 .cursor-text:hover {cursor: text;}
-.cursor-mouve:hover {cursor: move;}
+.cursor-move:hover {cursor: move;}
