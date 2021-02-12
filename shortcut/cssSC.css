@@ -1,6 +1,8 @@
 /*Weby Extension CSS Shortcuts 1.1.4  PUBLIC*/
 /*Flex*/
 .flex {display: flex;}
+/*Grid*/
+.grid {display: grid;}
 /*Justify Content*/
 .justify-center {justify-content: center;}
 .justify-between {justify-content: space-between;}.justify-around {justify-content: space-around;}.justify-evenly {justify-content: space-evenly;}
@@ -27,6 +29,7 @@
 /*Flex Direction*/
 .flex-row {flex-direction: row;}
 .flex-column {flex-direction: column;}
+
 
 /*Float*/
 .float-left {float: left;}
