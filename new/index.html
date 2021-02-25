@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/acf35067e0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://withersworld.github.io/WithersTest/shortcut/cssSC.css">
     <link rel="stylesheet" href="new.css">
     <script src="new.js"></script>
     <title>New Test</title>
@@ -12,28 +13,34 @@
 <body>
     <nav class="webynav">
         <div class="items">
-            <span class="fas fa-plus" class="mnav"></span>
-            <span class="wnav">Home</span>
+            <span class="fas fa-plus toggle-nav mnav"></span>
+            <span class="wnav"><a href="#">Home</a></span>
             <span class="wnav">About</span>
             <span class="wnav">New</span>
         </div>
     </nav>
-    <nav class="mobynav">
+    <nav class="mobynav hide">
         <div class="items">
-            <span class="fas fa-times"></span>
-            <span>Home</span>
+            <span><a href="#">Home</a></span>
             <span>About</span>
             <span>New</span>
+            <div class="btn">Close</div>
         </div>
     </nav>
+
     <div class="container">
-        <section>
+        <section class="bg-gray">
             <button onclick="color()">change color</button>
             <input type="text" id="color">
             <div class="content">
                 <div>WebyTips</div>
             </div>
             <button id="open-modal1">Open</button>
+        </section>
+        <section id="about" class="bg-black">
+            <div class="content">
+                <div>Weby</div>
+            </div>
         </section>
         <modal id="modal1">
             <div class="content2">
@@ -44,7 +51,7 @@
     </div>
     <script>
         function color() {
-            var color = $("#color").val(); 
+            var color = document.getElementById('color').value; 
             document.querySelector(".content").style.color = color;
             document.getElementById('color').value = '';
         }
@@ -59,9 +66,12 @@
         
 
         // Mobile Navbar
-        $('.fa-plus').click(function() {
-            $('.mobynav').toggle();
-        })
+        function toggleNav() {
+            document.querySelector('.mobynav').classList.toggle('hide')
+        }
+        for (const x of document.querySelectorAll('.toggle-nav')) {
+            x.addEventListener('click', toggleNav)
+        }
     </script>
 </body>
 </html>
