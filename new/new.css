@@ -69,6 +69,17 @@ section {
     margin: 0 auto;
     height: 100%;
 }
+/*Hero*/
+hero {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+hero > #subhero {
+    background: rgb(194, 41, 41);
+    width: 40%;
+    flex-direction: column;
+}
 /*Modal*/
 modal {
     display: none;
