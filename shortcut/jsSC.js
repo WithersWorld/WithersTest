@@ -113,3 +113,16 @@ var Weby = function(selector) {
     el.init();
     return el;
    }
+
+class ServerSide {
+    constructor (self, use) {
+        this.self = self;
+        this.use = use || null;
+    }
+    static Name(name) {
+        const ServerName = name.self;
+    }
+    static Version(version) {
+        const ServerVersion = version.self;
+    }
+}
