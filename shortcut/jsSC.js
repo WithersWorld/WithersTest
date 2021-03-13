@@ -115,14 +115,15 @@ var Weby = function(selector) {
    }
 
 class ServerSide {
-    constructor (self, use) {
+    constructor (self) {
         this.self = self;
-        this.use = use || null;
     }
     static Name(name) {
         const ServerName = name.self;
+        return ServerName;
     }
     static Version(version) {
         const ServerVersion = version.self;
+        return ServerVersion;
     }
-} 
+}
